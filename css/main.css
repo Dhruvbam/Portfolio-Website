@@ -1269,22 +1269,22 @@ header{
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		/* left: 60px; */
+		left: 60px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		/* left: 50px; */
+		left: 50px; 
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		/* left: 35px; */
+		left: 35px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		/* left: 25px; */
+		left: 25px;
 	}
 }
 
@@ -1581,6 +1581,7 @@ header{
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
+		margin: 0rem 3rem 0rem 10rem;
 		height: 7.8rem;
 		width: 7.8rem;
 	}
@@ -1607,6 +1608,7 @@ header{
 		margin-top: 3rem;
 	}
 	.intro-info img {
+		margin: 0rem 0rem 0rem 0rem;
 		height: 6.6rem;
 		width: 6.6rem;
 		float: none;
@@ -2751,7 +2753,6 @@ footer .copyright span:last-child::after {
 	background: #232121;
 	color: rgb(255, 255, 255);
   }
-   
 
 /*Card Endev*/
   .hero-section{
@@ -2766,7 +2767,7 @@ footer .copyright span:last-child::after {
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap:1%;
+  grid-column-gap:3%;
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
   width: 110%;
@@ -2807,10 +2808,9 @@ footer .copyright span:last-child::after {
   right: 0;
   top: 0;
   transform-origin: center;
-  trsnsform: scale(1.05) translateZ(0);
   transition: 
-    filter 200ms linear,
-    transform 200ms linear;
+    filter 100ms linear,
+    transform 100ms linear;
 }
 
 .card:hover .card__background{
