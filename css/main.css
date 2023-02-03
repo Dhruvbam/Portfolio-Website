@@ -1299,6 +1299,7 @@ header{
 	background: #151515 url(../images/bgg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
