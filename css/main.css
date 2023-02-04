@@ -1462,6 +1462,7 @@ header{
 @media only screen and (max-width:600px) {
 	#intro {
 		min-height: 600px;
+		background-attachment: scroll;
 	}
 	.intro-content h1 {
 		font-size: 4.6rem;
@@ -2762,7 +2763,7 @@ footer .copyright span:last-child::after {
   background-image: linear-gradient(15deg, #0f456700 2%, #03404a00 150%);
   display: flex;
   min-height: 100%;
-	  width: 91%;
+  width: 91%;
   justify-content: center;
   padding: var(--spacing-xxl) var(--spacing-l);
 }
@@ -2833,7 +2834,7 @@ footer .copyright span:last-child::after {
 
 .card__category{
   color: white;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
   font-size: small;
@@ -2841,7 +2842,7 @@ footer .copyright span:last-child::after {
 
 .card__heading{
   color: white;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.4;
   word-spacing: 100vw;
