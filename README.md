@@ -1,12 +1,14 @@
-# Portfolio
-My website portfolio
+# Portfolio Website
+My Website to showcase my skills
 
 ## Screenshots:
+![alt text](https://github.com/Dhruvbam/Portfolio-Website/blob/main/images/portfolio/wb.png)
+
 ### Computer View
-![alt text](https://github.com/alisolanki/Portfolio/blob/master/Portfolio.PNG)
+![alt text](https://github.com/Dhruvbam/Portfolio-Website/blob/main/Portfolio.png)
 
 ### Mobile View
-![alt text](https://github.com/alisolanki/Portfolio/blob/master/Portfolio_mobile.PNG)
+![alt text](https://github.com/Dhruvbam/Portfolio-Website/blob/main/Portfolio_mobile.png)
 
 ## Author
-* Mohd. Ali Solanki (https://youtube.com/AliSolanki)
+* Dhruv Maniar
