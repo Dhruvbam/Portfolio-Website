@@ -1642,7 +1642,7 @@ header{
 }
 
 #resume .resume-timeline {
-	max-width: 980px;
+	max-width: 70%;
 }
 #resume .timeline-wrap {
 	position: relative;
@@ -2232,6 +2232,12 @@ header{
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
+#contact a, #contact a:visited {
+	color:rgba(255, 255, 255, 0.33);
+}
+#contact a:hover, #contact a:focus {
+	color: #ff000074;
+}
 
 /* contact form */
 .contact-form {
@@ -2594,7 +2600,7 @@ footer .copyright span:last-child::after {
   .cardct {
 	margin: 3%;
 	background: #221f1f1e;
-	width: 108px;
+	width: 88%;
 	height: 45px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
 	border-radius: 2px;
@@ -2608,10 +2614,11 @@ footer .copyright span:last-child::after {
   }
   
   .cardct > span {
-	display: block;
+	display: inline-flex;
 	margin: 3px;
-	max-width: 100px;
+	max-width: 100%;
 	line-height: 100%;
+	text-align: center;
   }
   
   .containerct:hover .cardct {
@@ -2658,7 +2665,7 @@ footer .copyright span:last-child::after {
   .cardcc {
 	margin: 3%;
 	background: #221f1f1e;
-	width: 108px;
+	width: auto;
 	height: 45px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
 	border-radius: 2px;
@@ -2672,10 +2679,11 @@ footer .copyright span:last-child::after {
   }
   
   .cardcc > span {
-	display: block;
+	display: inline-flex;
 	margin: 3px;
-	max-width: 100px;
+	max-width: 100%;
 	line-height: 100%;
+	text-align: center;
   }
   
   .containercc:hover .cardcc {
@@ -2721,7 +2729,7 @@ footer .copyright span:last-child::after {
   .cardcv {
 	margin: 3%;
 	background: #221f1f1e;
-	width: 108px;
+	width: 88%;
 	height: 45px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
 	border-radius: 2px;
@@ -2735,10 +2743,11 @@ footer .copyright span:last-child::after {
   }
   
   .cardcv > span {
-	display: block;
+	display: inline-flex;
 	margin: 3px;
-	max-width: 100px;
+	max-width: 100%;
 	line-height: 100%;
+	text-align: center;
   }
   
   .containercv:hover .cardcv {
@@ -2763,7 +2772,7 @@ footer .copyright span:last-child::after {
   background-image: linear-gradient(15deg, #0f456700 2%, #03404a00 150%);
   display: flex;
   min-height: 96%;
-  width: 74%;
+  width: 73%;
   justify-content: center;
   padding: var(--spacing-xxl) var(--spacing-l);
 }
@@ -2771,10 +2780,10 @@ footer .copyright span:last-child::after {
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap:4%;
+  grid-column-gap:5%;
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
-  width: 100%;
+  width: 93%;
 }
 
 @media(min-width: 540px){
