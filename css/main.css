@@ -2658,24 +2658,24 @@ footer .copyright span:last-child::after {
   
   @media(min-width: 960px){
 	.containercc{
-	  grid-template-columns: repeat(4, 1fr); 
+	  grid-template-columns: repeat(5, 1fr); 
 	}
   }
   
   .cardcc {
-	margin: 3%;
+	margin: 4%;
 	background: #221f1f1e;
 	width: auto;
-	height: 45px;
+	height: 50px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 2px;
+	border-radius: 10px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
 	text-align: center;
 	font-family: Arial black;
 	font-size: 13px;
-	padding-top: 1px;
+	padding-top: 0px;
   }
   
   .cardcc > span {
@@ -2706,6 +2706,7 @@ footer .copyright span:last-child::after {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	grid-column-gap:5%;
+	border-radius: 20px;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
 	width: 100%;
@@ -2716,13 +2717,13 @@ footer .copyright span:last-child::after {
 
   @media(min-width: 540px){
 	.containercv{
-	  grid-template-columns: repeat(3, 1fr); 
+	  grid-template-columns: repeat(2, 1fr); 
 	}
   }
   
   @media(min-width: 960px){
 	.containercv{
-	  grid-template-columns: repeat(3, 1fr); 
+	  grid-template-columns: repeat(4, 1fr); 
 	}
   }
   
