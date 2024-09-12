@@ -1749,6 +1749,7 @@ header{
 	bottom: 0;
 }
 
+
 /**
  * responsive:
  * resume
@@ -1768,6 +1769,29 @@ header{
 		padding-left: 50px;
 	}
 }
+
+@media only screen and (max-width:1024px) {
+	#resume .skills {
+
+		[class*="col-"] {
+			width: 100% !important;
+			float: none !important;
+			clear: both !important;
+			margin-left: 5;
+			margin-right: 5;
+			padding: 5;
+		}
+	
+		[class*="col-"] + [class*="col-"].end {
+			float: none;
+		}
+
+	}
+
+
+
+}
+
 @media only screen and (max-width:768px) {
 	#resume .timeline-wrap::before {
 		left: 2.4rem;
