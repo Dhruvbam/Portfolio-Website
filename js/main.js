@@ -172,7 +172,7 @@
 
 		   var active_section;
 
-			active_section = $('section#' + this.element.id);
+			active_section = $('#' + this.element.id);
 
 			if (direction === "up") active_section = active_section.prev();
 
