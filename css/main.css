@@ -1103,7 +1103,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 header {
-	background: none;
 	position: fixed;
 	width: 100%;
 	min-height: 66px;
@@ -1134,7 +1133,7 @@ header .logo {
 header .logo a {
 	display: block;
 	margin:0px 0px 0px 10px;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	border: none;
 	text-shadow:2px 2px 2px #fd050546;
 	color: rgb(255, 255, 255);
@@ -1157,28 +1156,22 @@ header{
  */
 .menu-toggle {
 	float: left;
-	width: 60px;
-	height: 60px;
+	width: 69px;
+	height: 69px;
 	margin-left: 20px;
 	margin-top: 20px;
 	display: block;
 	position: relative;
-	transition: transform 0.3s ease;
-	cursor: pointer; /* Indicates the element is interactive */
+	cursor: pointer;
 }
 
 .menu-toggle:hover {
-	transform: scale(1.15); /* Increase the size by 20% on hover */
-}
-
-.menu-toggle img {
-    width: 100%; /* Makes the image fill the container */
-    height: auto; /* Keeps the aspect ratio intact */
+	transform: scale(1.142069); /* Increase the size by 20% on hover */
 }
 
 .menu-toggle span {
 	display: block;
-	background-color: #ff000000;
+	background-color: #ff0000cc;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1233,10 +1226,10 @@ header{
 
 /* is clicked */
 .menu-toggle.is-clicked span {
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(255, 0, 0, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff000000;
+	background-color: #ff0000;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1270,9 +1263,9 @@ header{
 /* dropdown nav */
 .main-navigation {
 	background: #00000000;
-	padding: 14px 28px 4px;
+	padding: 28px 24px 24px 32px;
 	margin: 0;
-	width: 60%;
+	width: 100%;
 	height: auto;
 	clear: both;
 	display: none;
@@ -1285,7 +1278,7 @@ header{
 }
 .main-navigation li a {
 	display: block;
-	color: #000000;
+	color: #888888;
 	width: auto;
 	padding: 15px 0;
 	line-height: 16px;
@@ -1294,12 +1287,10 @@ header{
 .main-navigation li a:hover {
 	color: #ff0000;
 	padding-left: 1rem;
-	background-color: #00000024;
 }
 .main-navigation li.current > a {
 	background: none;
-	background-color: #00000024;
-	color: #ff0000;
+	color: #ff0000c3;
 }
 
 /**
@@ -1307,25 +1298,25 @@ header{
  * header styles
  * --------------------------------------------------------------- 
  */
- @media only screen and (max-width:1024px) {
-    header .top-bar {
-        left: 6%; /* Adjusted to percentage for better scaling */
-    }
+@media only screen and (max-width:1024px) {
+	header .top-bar {
+		left: 60px;
+	}
 }
 @media only screen and (max-width:768px) {
-    header .top-bar {
-        left: 5%; /* Slightly reduces as the screen gets smaller */
-    }
+	header .top-bar {
+		left: 50px; 
+	}
 }
 @media only screen and (max-width:600px) {
-    header .top-bar {
-        left: 3%; /* Further reduction for small devices */
-    }
+	header .top-bar {
+		left: 35px;
+	}
 }
 @media only screen and (max-width:400px) {
-    header .top-bar {
-        left: 2%; /* Minimal left padding for very small devices */
-    }
+	header .top-bar {
+		left: 25px;
+	}
 }
 
 
