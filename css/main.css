@@ -1072,7 +1072,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * common styles
  * ------------------------------------------------------------------- 
  */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
 	.section-intro {
 		max-width: 650px;
 	}
@@ -1302,20 +1302,40 @@ header{
 	header .top-bar {
 		left: 60px;
 	}
+
+	.menu-toggle {
+		width: 55px;
+		height: 55px;
+	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
 		left: 50px; 
+	}
+
+	.menu-toggle {
+		width: 42px;
+		height: 42px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
 		left: 35px;
 	}
+
+	.menu-toggle {
+		width: 42px;
+		height: 42px;
+	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
 		left: 25px;
+	}
+
+	.menu-toggle {
+		width: 42px;
+		height: 42px;
 	}
 }
 
@@ -1613,30 +1633,8 @@ header{
 		margin-left: 0;
 	}
 }
+
 @media only screen and (max-width:768px) {
-	.intro-info img {
-		margin: 0rem 3rem 0rem 10rem;
-		height: 7.8rem;
-		width: 7.8rem;
-	}
-	.intro-info .lead {
-		padding-left: 11rem;
-	}
-	.about-content h3 {
-		text-align: center;
-	}
-	.about-content .info-list, .about-content .skill-bars {
-		margin-bottom: 4.2rem;
-	}
-	.button-section .button {
-		width: 100%;
-		margin-bottom: 3rem;
-	}
-	.button-section [class*="col-"] .button:first-child {
-		margin-right: 0;
-	}
-}
-@media only screen and (max-width:600px) {
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
@@ -1651,6 +1649,11 @@ header{
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+	}
+
+	.about-content .info-list {
+		text-align: center;
+		font-size: medium;
 	}
 }
 
@@ -1673,7 +1676,7 @@ header{
 }
 
 #resume .resume-timeline {
-	max-width: 70%;
+	max-width: 80%;
 }
 #resume .timeline-wrap {
 	position: relative;
@@ -1787,6 +1790,7 @@ header{
 	}
 	#resume .timeline-content {
 		margin: 0;
+		padding-left: 20px;
 	}
 	#resume .timeline-content h4 {
 		padding-bottom: 0;
@@ -1799,8 +1803,13 @@ header{
 		top: 0;
 	}
 	#resume .timeline-header, #resume .timeline-content {
-		padding-left: 7rem;
+		padding-left: 5.5rem;
 	}
+
+	#resume .timeline-block {
+		font-size: medium;
+	}
+
 }
 @media only screen and (max-width:480px) {
 	#resume .resume-header h2 {
@@ -1819,6 +1828,10 @@ header{
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 5.5rem;
+	}
+
+	#resume .timeline-block {
+		font-size: smaller;
 	}
 }
 
@@ -2681,17 +2694,39 @@ footer .copyright span:last-child::after {
 	margin: 10px;
   }
 
-  @media(min-width: 540px){
-	.containercc{
-	  grid-template-columns: repeat(2, 1fr); 
-	}
-  }
-  
-  @media(min-width: 960px){
+  @media(min-width: 1369px){
 	.containercc{
 	  grid-template-columns: repeat(5, 1fr); 
 	}
   }
+
+  @media(max-width: 1369px){
+	.containercc{
+	  grid-template-columns: repeat(4, 1fr); 
+	}
+  }
+
+  @media(max-width: 1111px){
+	.containercc{
+	  grid-template-columns: repeat(3, 1fr); 
+	}
+  }
+
+  @media(max-width: 625px){
+	.containercc{
+	  grid-template-columns: repeat(2, 1fr); 
+	}
+  }
+ 
+  @media(max-width: 469px){
+	.containercc{
+	  grid-template-columns: repeat(1, 1fr); 
+	}
+  }
+  
+
+
+
   
   .cardcc {
 	margin: 4%;

@@ -542,6 +542,21 @@ textarea {
 
 }
 
+@media screen and (max-width:768px) {
+	[class*="col-"] {
+		width: 100% !important;
+		float: none !important;
+		clear: both !important;
+		margin-left: 5;
+		margin-right: 5;
+		padding: 5;
+	}
+
+	[class*="col-"] + [class*="col-"].end {
+		float: none;
+	}
+}
+
 /**
  * large mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
@@ -555,10 +570,6 @@ textarea {
 	.row .row {
 		margin-left: -10px;
 		margin-right: -10px;
-	}
-
-	[class*="col-"] {
-		padding: 0 10px;
 	}
 
 	.mob-1-4 {
@@ -579,6 +590,8 @@ textarea {
 
 }
 
+
+
 /**
  * small mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
@@ -589,19 +602,6 @@ textarea {
 		padding-right: 0;
 		margin-left: 0;
 		margin-right: 0;
-	}
-
-	[class*="col-"] {
-		width: 100% !important;
-		float: none !important;
-		clear: both !important;
-		margin-left: 0;
-		margin-right: 0;
-		padding: 0;
-	}
-
-	[class*="col-"] + [class*="col-"].end {
-		float: none;
 	}
 
 }
