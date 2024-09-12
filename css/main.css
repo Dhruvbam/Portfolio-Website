@@ -2946,6 +2946,11 @@ footer .copyright span:last-child::after {
   filter: brightness(1) saturate(1) contrast(1.1) blur(0px);
 }
 
+.card:hover .card__heading{
+	color: rgb(255, 0, 0);
+
+}
+
 .card-grid:hover > .card:not(:hover) .card__background{
   filter: brightness(0.88) saturate(0.88) contrast(0.9) blur(6.9px);
 }
