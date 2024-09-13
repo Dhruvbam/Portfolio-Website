@@ -2690,14 +2690,14 @@ footer .copyright span:last-child::after {
   }
   
   .containerct:hover .cardct {
-	filter: blur(2px);
+	filter: blur(0.5px);
 	opacity: .65;
-	transform: scale(.97);
+	transform: scale(0.96);
 	box-shadow: none;
   }
   
   .containerct:hover .cardct:hover {
-	transform: scale(1.05);
+	transform: scale(1.069);
 	filter: blur(0px);
 	opacity: 1;
 	box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
@@ -2777,14 +2777,14 @@ footer .copyright span:last-child::after {
   }
   
   .containercc:hover .cardcc {
-	filter: blur(2px);
+	filter: blur(0.5px);
 	opacity: .65;
-	transform: scale(.97);
+	transform: scale(.96);
 	box-shadow: none;
   }
   
   .containercc:hover .cardcc:hover {
-	transform: scale(1.05);
+	transform: scale(1.069);
 	filter: blur(0px);
 	opacity: 1;
 	box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
@@ -2842,14 +2842,14 @@ footer .copyright span:last-child::after {
   }
   
   .containercv:hover .cardcv {
-	filter: blur(2px);
+	filter: blur(0.5px);
 	opacity: .65;
-	transform: scale(.97);
+	transform: scale(.96);
 	box-shadow: none;
   }
   
   .containercv:hover .cardcv:hover {
-	transform: scale(1.05);
+	transform: scale(1.069);
 	filter: blur(0px);
 	opacity: 1;
 	box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
