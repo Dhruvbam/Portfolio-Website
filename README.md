@@ -14,16 +14,6 @@ This section lists the major frameworks and technologies used in the project:
 - <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="36" height="36" alt="CSS3" /></a> **CSS3**: Used for styling the website and ensuring it is responsive and visually appealing.
 - <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="36" height="36" alt="JavaScript" /></a> **JavaScript**: Adds interactivity and dynamic features to the website.
 
-
-### Installation
-To run the website locally:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repo/portfolio-website.git
-    ```
-2. Open `index.html` in your preferred web browser.
-
 ### Usage
 Navigate through the different sections of the website to explore my professional background, skills, and projects. You can also download my resume or contact me directly through the Contact section.
 
