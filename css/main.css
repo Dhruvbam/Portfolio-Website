@@ -2644,13 +2644,13 @@ footer .copyright span:last-child::after {
 .containerct {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-column-gap:5%;
+	grid-column-gap:1%;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	margin: 10px;
+	margin: 5px;
   }
 
   @media(min-width: 540px){
@@ -2668,17 +2668,17 @@ footer .copyright span:last-child::after {
   .cardct {
 	margin: 3%;
 	background: #221f1f1e;
-	width: 88%;
-	height: 45px;
+	width: 80%;
+	height: 40px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 2px;
+	border-radius: 10px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
 	text-align: center;
 	font-family: Arial black;
 	font-size: 13px;
-	padding-top: 1px;
+	padding-top: 4px;
   }
   
   .cardct > span {
@@ -2709,13 +2709,13 @@ footer .copyright span:last-child::after {
    .containercc {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-column-gap:5%;
+	grid-column-gap:3%;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	margin: 10px;
+	margin: 5px;
   }
 
   @media(min-width: 1369px){
@@ -2748,15 +2748,12 @@ footer .copyright span:last-child::after {
 	}
   }
   
-
-
-
   
   .cardcc {
-	margin: 4%;
+	margin: 3%;
 	background: #221f1f1e;
-	width: auto;
-	height: 50px;
+	width: 98%;
+	height: 48px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
 	transition: .3s all;
@@ -2765,7 +2762,7 @@ footer .copyright span:last-child::after {
 	text-align: center;
 	font-family: Arial black;
 	font-size: 13px;
-	padding-top: 0px;
+	padding-top: 3px;
   }
   
   .cardcc > span {
@@ -2823,14 +2820,14 @@ footer .copyright span:last-child::after {
 	width: 88%;
 	height: 45px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 2px;
+	border-radius: 10px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
 	text-align: center;
 	font-family: Arial black;
 	font-size: 13px;
-	padding-top: 1px;
+	padding-top: 4px;
   }
   
   .cardcv > span {
@@ -2849,6 +2846,72 @@ footer .copyright span:last-child::after {
   }
   
   .containercv:hover .cardcv:hover {
+	transform: scale(1.069);
+	filter: blur(0px);
+	opacity: 1;
+	box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+	background: #232121;
+	color: rgb(255, 255, 255);
+  }
+
+
+/*Card Cert F*/
+.containercf {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-gap:5%;
+	grid-row-gap: var(--spacing-l);
+	max-width: var(--width-container);
+	width: 42%;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+  }
+
+  @media(min-width: 540px){
+	.containercf{
+	  grid-template-columns: repeat(1, 1fr); 
+	}
+  }
+  
+  @media(min-width: 960px){
+	.containercf{
+	  grid-template-columns: repeat(1, 1fr); 
+	}
+  }
+  
+  .cardcf {
+	margin: 3%;
+	background: #221f1f1e;
+	width: 84%;
+	height: 40px;
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	transition: .3s all;
+	cursor: pointer;
+	align-items: center;
+	text-align: center;
+	font-family: Arial black;
+	font-size: 13px;
+	padding-top: 3px;
+  }
+  
+  .cardcf > span {
+	display: inline-flex;
+	margin: 3px;
+	max-width: 100%;
+	line-height: 100%;
+	text-align: center;
+  }
+  
+  .containercf:hover .cardcf {
+	filter: blur(0.5px);
+	opacity: .65;
+	transform: scale(0.96);
+	box-shadow: none;
+  }
+  
+  .containercf:hover .cardcf:hover {
 	transform: scale(1.069);
 	filter: blur(0px);
 	opacity: 1;
