@@ -1348,7 +1348,7 @@ header{
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/bgg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
