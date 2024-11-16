@@ -667,6 +667,7 @@ input[type="button"] {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	border-radius: 100px;
 }
 .button:hover,
 a.button:hover,
@@ -1872,9 +1873,10 @@ header{
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 0px;
 	position: relative;
 	overflow: hidden;
+	border-radius: 0px;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -2647,7 +2649,7 @@ footer .copyright span:last-child::after {
 	grid-column-gap:6%;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
-	width: 90%;
+	width: 88%;
 	align-items: center;
 	justify-content: center;
 	margin: 5px;
@@ -2659,7 +2661,7 @@ footer .copyright span:last-child::after {
 	width: 100%;
 	height: 40px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 100px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
@@ -2725,7 +2727,7 @@ footer .copyright span:last-child::after {
 	width: 100%;
 	height: 48px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 50px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
@@ -2811,7 +2813,7 @@ footer .copyright span:last-child::after {
 	width: 100%;
 	height: 40px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 100px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
@@ -2862,11 +2864,11 @@ footer .copyright span:last-child::after {
   .containercv {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-column-gap:5%;
-	border-radius: 20px;
+	grid-column-gap:2%;
+	border-radius: 10px;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
-	width: 100%;
+	width: 92%;
 	align-items: center;
 	justify-content: center;
 	margin: 10px;
@@ -2878,7 +2880,7 @@ footer .copyright span:last-child::after {
 	width: 92%;
 	height: 45px;
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
+	border-radius: 100px;
 	transition: .3s all;
 	cursor: pointer;
 	align-items: center;
@@ -2946,41 +2948,6 @@ footer .copyright span:last-child::after {
   width: 93%;
 }
 
-@media(min-width: 1274px){
-	.card-grid{
-	  grid-template-columns: repeat(5, 1fr); 
-	}
-  }
-
-  @media(max-width: 1273px){
-	.card-grid{
-	  grid-template-columns: repeat(3, 2fr); 
-	  grid-row-gap: 3%;
-	}
-  }
-
-@media(max-width: 768px){
-	.card-grid{
-	  grid-template-columns: repeat(3, 1fr); 
-	  grid-row-gap: 2%;
-	}
-  }
-
-@media(max-width: 540px){
-  .card-grid{
-    grid-template-columns: repeat(2, 1fr); 
-	grid-row-gap: 2%;
-  }
-
-@media(max-width: 425px){
-	.card-grid{
-	  grid-template-columns: repeat(1, 1fr); 
-	  grid-row-gap: 1%;
-	}
-}
-}
-
-
 
 .card{
   list-style: none;
@@ -2997,7 +2964,7 @@ footer .copyright span:last-child::after {
 .card__background{
   background-size: cover;
   background-position: center;
-  border-radius: var(--spacing-l);
+  border-radius: 32px;
   bottom: 0;
   filter: brightness(0.9) saturate(0.9) contrast(1);
   left: 0;
@@ -3032,7 +2999,8 @@ footer .copyright span:last-child::after {
 }
 
 .card__category{
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: 20px 20px 20px rgb(0, 0, 0);
   font-size: 1.1rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
@@ -3042,10 +3010,44 @@ footer .copyright span:last-child::after {
 .card__heading{
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
-  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.518);
   line-height: 1.4;
   word-spacing: 100vw;
 }
   
+
+@media(min-width: 1274px){
+	.card-grid{
+	  grid-template-columns: repeat(5, 1fr); 
+	}
+  }
+
+  @media(max-width: 1273px){
+	.card-grid{
+	  grid-template-columns: repeat(3, 2fr); 
+	  grid-row-gap: 3%;
+	}
+  }
+
+@media(max-width: 768px){
+	.card-grid{
+	  grid-template-columns: repeat(3, 1fr); 
+	  grid-row-gap: 2%;
+	}
+  }
+
+@media(max-width: 540px){
+  .card-grid{
+    grid-template-columns: repeat(2, 1fr); 
+	grid-row-gap: 2%;
+  }
+
+@media(max-width: 425px){
+	.card-grid{
+	  grid-template-columns: repeat(1, 1fr); 
+	  grid-row-gap: 1%;
+	}
+}
+}
 
 /*# sourceMappingURL=main.css.map */
