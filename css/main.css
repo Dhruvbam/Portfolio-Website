@@ -2740,7 +2740,7 @@ footer .copyright span:last-child::after {
   .cardcc > span {
 	display: inline-flex;
 	margin: 3px;
-	max-width: 94%;
+	max-width: 90%;
 	line-height: 100%;
 	text-align: center;
   }
