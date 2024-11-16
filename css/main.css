@@ -2715,7 +2715,7 @@ footer .copyright span:last-child::after {
 	grid-column-gap:2.5%;
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
-	width: 98%;
+	width: 96%;
 	align-items: center;
 	justify-content: center;
 	margin: 5px;
@@ -2740,7 +2740,7 @@ footer .copyright span:last-child::after {
   .cardcc > span {
 	display: inline-flex;
 	margin: 3px;
-	max-width: 100%;
+	max-width: 94%;
 	line-height: 100%;
 	text-align: center;
   }
